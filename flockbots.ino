@@ -109,10 +109,6 @@ void setRightWheel(int degree) {
   rWheel.write(degree);
 }
 
-void drive(int left, int right) {
-  
-}
-
 void updateLeftTicks() {
   leftTicks  += digitalRead(L_WHEEL_DIRECTION)?1:-1;
 }
